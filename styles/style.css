@@ -39,7 +39,7 @@ nav {
 }
 
 .banner-text h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
@@ -48,7 +48,7 @@ nav {
 }
 
 .banner-text p {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -158,16 +158,18 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  border: 1px solid red;
+  margin-top: 60px;
 }
 
 .deals1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/assets/deal-bloom.png) center/cover no-repeat;
+  border-radius: 10px;
 }
 .deals2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/assets/deal-ana.png) center/cover no-repeat;
+  border-radius: 10px;
 }
 
 .deals3 {
@@ -175,6 +177,7 @@ nav {
     url(/assets/deal-zabo.png) center/cover no-repeat;
   grid-column: span 2;
   grid-row: span 2;
+  border-radius: 20px;
 }
 
 .deals-content {
