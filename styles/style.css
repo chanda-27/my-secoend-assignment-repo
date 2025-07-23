@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  align-items: center;
+}
+.nav-manu {
+}
+.nav-manu a {
+  font-weight: 700;
+  margin-right: 40px;
+  text-decoration: none;
+  color: rgb(37, 36, 50);
+}
