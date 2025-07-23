@@ -163,18 +163,18 @@ nav {
 
 .deals1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-bloom.png) center/cover no-repeat;
+    url(./assets/deal-bloom.png) center/cover no-repeat;
   border-radius: 10px;
 }
 .deals2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-ana.png) center/cover no-repeat;
+    url(./assets/deal-ana.png) center/cover no-repeat;
   border-radius: 10px;
 }
 
 .deals3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-zabo.png) center/cover no-repeat;
+    url(./assets/deal-zabo.png) center/cover no-repeat;
   grid-column: span 2;
   grid-row: span 2;
   border-radius: 20px;
@@ -192,7 +192,7 @@ nav {
 .subscription {
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/news-letter-bg.png) center/cover no-repeat;
+    url(./assets/news-letter-bg.png) center/cover no-repeat;
   padding: 7rem 0;
   margin: 70px 0 50px 0;
 }
