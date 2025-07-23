@@ -25,3 +25,29 @@ nav {
   text-decoration: none;
   color: rgb(37, 36, 50);
 }
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 120px 0px;
+}
+.banner-text {
+  width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.banner-title {
+  color: rgb(233, 90, 8);
+}
+
+.banner-text p {
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner-img {
+  width: 50%;
+}
