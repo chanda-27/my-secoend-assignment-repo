@@ -29,8 +29,7 @@ nav {
 }
 
 .nav-manu a {
-  font-weight: 700;
-  margin-right: 15px;
+  margin-right: 16px;
   text-decoration: none;
   color: rgb(37, 36, 50);
 }
@@ -195,7 +194,14 @@ nav {
   align-items: center;
   justify-content: center;
 }
-
+.deals3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.deals-content a {
+  color: #fff;
+  font-size: 20px;
+}
 .subscription {
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
