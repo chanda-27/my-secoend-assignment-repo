@@ -23,9 +23,14 @@ nav {
   align-items: center;
 }
 
+.nav-manu {
+  display: flex;
+  align-items: center;
+}
+
 .nav-manu a {
   font-weight: 700;
-  margin-right: 40px;
+  margin-right: 15px;
   text-decoration: none;
   color: rgb(37, 36, 50);
 }
@@ -109,20 +114,22 @@ nav {
   gap: 60px;
   margin: 200px 0px 100px 0px;
   position: relative;
+  align-items: flex-start;
 }
 .lover-img {
-  width: 50%;
+  /* width: 50%; */
 }
 .lover-text {
-  width: 50%;
+  /* width: 50%; */
 }
 .badge img {
   width: 250px;
 }
 .badge {
   position: absolute;
-  left: 296px;
-  top: -124px;
+  left: 250px;
+  top: -50x;
+  transform: translate(-50%, -50%);
 }
 .flower-lover h1 {
   font-size: 50px;
@@ -163,18 +170,18 @@ nav {
 
 .deals1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-bloom.png) center/cover no-repeat;
+    url("/assets/deal-bloom.png") center/cover no-repeat;
   border-radius: 10px;
 }
 .deals2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-ana.png) center/cover no-repeat;
+    url("/assets/deal-ana.png") center/cover no-repeat;
   border-radius: 10px;
 }
 
 .deals3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/deal-zabo.png) center/cover no-repeat;
+    url("/assets/deal-zabo.png") center/cover no-repeat;
   grid-column: span 2;
   grid-row: span 2;
   border-radius: 20px;
@@ -192,7 +199,7 @@ nav {
 .subscription {
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/news-letter-bg.png) center/cover no-repeat;
+    url("/assets/news-letter-bg.png") center/cover no-repeat;
   padding: 7rem 0;
   margin: 70px 0 50px 0;
 }
@@ -259,7 +266,47 @@ footer {
 }
 
 @media (max-width: 600px) {
-  body {
-    background: #000;
+  .nav-link {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-img,
+  .banner-text {
+    width: 100%;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .badge {
+    display: none;
+  }
+  .flower-lover {
+    flex-direction: column;
+  }
+  .lover-img,
+  .lover-text {
+    width: 100%;
+  }
+
+  .deals-container {
+    grid-template-columns: 1fr;
+  }
+  .deals3 {
+    grid-column: span 1;
+  }
+
+  .contact {
+    width: 80%;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+  .links-container {
+    grid-template-columns: 1fr;
   }
 }
